@@ -7,8 +7,6 @@
     src: url(../fonts/Roboto-Regular.ttf);
 } */
 body {
-  /* background-image:  */
-  font-family: Arial, Helvetica, sans-serif;
   width: 10rem;
 }
 
@@ -19,10 +17,22 @@ body {
   align-items: center;
   flex-wrap: wrap;
   align-content: space-around;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 800px;
-  height: 300px;
+  /* list-style: none;
+margin: 0;
+padding: 0;
+width: 800px;
+height: 300px; */
   border: 50px solid blue;
+}
+
+.wrap__titles {
+  font-family: Arial, Times, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.wrap__description {
+  font-weight: 400px;
 }
