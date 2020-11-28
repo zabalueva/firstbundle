@@ -1,0 +1,2 @@
+# firstbundle
+Знакомство с webpack
