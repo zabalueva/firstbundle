@@ -1,13 +1,7 @@
-/* $font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
-
-@font-face {
-    font-family: "Arial";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/Roboto-Regular.ttf);
-} */
 body {
   width: 10rem;
+  border: 50px solid blue;
+  background-color: grey;
 }
 
 .wrap {
@@ -33,6 +27,7 @@ height: 300px; */
   line-height: 30px;
 }
 
-.wrap__description {
+.colours__description {
   font-weight: 400px;
+  color: red;
 }
