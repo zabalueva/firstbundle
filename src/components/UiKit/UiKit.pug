@@ -1,0 +1,30 @@
+doctype html
+
+html(lang="ru")
+    head 
+    title Training
+    body .wrap
+    .header
+    
+        section.colours
+        mixin colours(name, colour, code)
+          li.colours = name
+        //- use
+        ul
+            +pet('cat')
+            +pet('dog')
+            +pet('pig')
+
+
+
+
+            h2 Dark Shade 100% 
+            p.__description  #1F2041
+            h2 Dark Shade 75% 
+            p #1F2041
+
+        section.titles
+            h1.titles This one is the sub-section or widget title
+            h2 Next one is the item title inside widgets
+            h3 This is a label or CTA text
+            p This is the body text which is used for most of the design, like paragraphs, lists, etc.
